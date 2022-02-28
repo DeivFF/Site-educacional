@@ -9,19 +9,20 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="menu-btn"><i class="fas fa-bars"></i></div>
     <aside class ="aside">  
         <header>
             <a href="#" class="logo"><i class="fas fa-graduation-cap"></i> Educa</a>
         </header>
         <nav class="menu">
-            <a href=""><i class="fas fa-angle-right"></i>Inicio</a>
-            <a href=""><i class="fas fa-angle-right"></i>Categoria</a>
-            <a href=""><i class="fas fa-angle-right"></i>Sobre</a>
-            <a href=""><i class="fas fa-angle-right"></i>Cursos</a>
-            <a href=""><i class="fas fa-angle-right"></i>Preço</a>
-            <a href=""><i class="fas fa-angle-right"></i>Contato</a>
-            <a href=""><i class="fas fa-angle-right"></i>Avaliações</a>
-            <a href=""><i class="fas fa-angle-right"></i>Blog</a>
+            <a href="#inicio"><i class="fas fa-angle-right"></i>Inicio</a>
+            <a href="#categoria"><i class="fas fa-angle-right"></i>Categoria</a>
+            <a href="#sobre"><i class="fas fa-angle-right"></i>Sobre</a>
+            <a href="#cursos"><i class="fas fa-angle-right"></i>Cursos</a>
+            <a href="#preco"><i class="fas fa-angle-right"></i>Preço</a>
+            <a href="#contato"><i class="fas fa-angle-right"></i>Contato</a>
+            <a href="#avaliacoes"><i class="fas fa-angle-right"></i>Avaliações</a>
+            <a href="#blogs"><i class="fas fa-angle-right"></i>Blog</a>
         </nav>
         <div class="social-media">
             <a href="#" class="fab fa-facebook-f"></a>
@@ -30,7 +31,7 @@
             <a href="#" class="fab fa-linkedin"></a>
         </div>
     </aside>
-    <section class="inicio">
+    <section class="inicio section-flex" id="inicio">
         <div class="img">
             <img src="images/home-img.svg">
         </div>
@@ -73,7 +74,7 @@
             </div>
         </div>
     </section>
-    <section class="categoria">
+    <section class="categoria" id="categoria">
         <span>Nossas categorias</span>
         <h1>Nossas categorias principais</h1>
         <div class="container">
@@ -109,7 +110,7 @@
             </div>
         </div>
     </section>
-    <section class="sobre">
+    <section class="sobre section-flex"  id="sobre">
             <div class="img">
                 <img src="images/about-img.svg">
             </div>
@@ -120,7 +121,7 @@
                 <a href="#">Leia mais</a>
             </div>
     </section>
-    <section class="cursos">
+    <section class="cursos"  id="cursos">
         <span>Principais cursos</span>
         <h1>Cursos populares</h1>
         <div class="container">
@@ -150,7 +151,7 @@
             </div>
         </div>
     </section>
-    <section class="preco">
+    <section class="preco"  id="preco">
         <span>Escolha um plano</span>
         <h1>Planos acessíveis</h1>
         <div class="container">
@@ -195,7 +196,7 @@
             </div>
         </div>
     </section>
-    <section class="contato">
+    <section class="contato"  id="contato">
         <span>Contate-Nos</span>
         <h1>Entrar Em Contato</h1>
         <div class="container">
@@ -243,7 +244,7 @@
             </form>
         </div>
     </section>
-    <section class="avaliacoes">
+    <section class="avaliacoes"  id="avaliacoes">
         <span>Comentários De Clientes</span>
         <h1>O Que Eles Disseram?</h1>
         <div class="container">
@@ -285,7 +286,7 @@
             </div>
         </div>
     </section>
-    <section class="blogs">
+    <section class="blogs"  id="blogs">
         <span>Nossos Blogs</span>
         <h1>Nossas Histórias Não Contadas</h1>
         <div class="container">
@@ -330,5 +331,6 @@
             </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
